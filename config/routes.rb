@@ -1,4 +1,8 @@
 GmapsTurbolinksDemo::Application.routes.draw do
+
+  get "maps/index"
+  get "maps/show"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +52,7 @@ GmapsTurbolinksDemo::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'maps#index'
 
   # See how all your routes lay out with "rake routes"
 

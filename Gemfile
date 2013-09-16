@@ -36,3 +36,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'twitter-bootstrap-rails', '2.2.8'
+gem 'gmaps4rails', '2.0.1', git: 'https://github.com/fiedl/Google-Maps-for-Rails'

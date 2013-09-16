@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/fiedl/Google-Maps-for-Rails
+  revision: c159503f5b244f0528482020f6d81215264149ad
+  specs:
+    gmaps4rails (2.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -93,6 +99,11 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    twitter-bootstrap-rails (2.2.8)
+      actionpack (>= 3.1)
+      execjs
+      rails (>= 3.1)
+      railties (>= 3.1)
     tzinfo (0.3.37)
     uglifier (2.2.1)
       execjs (>= 0.3.0)
@@ -103,8 +114,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  gmaps4rails (= 2.0.1)!
   jquery-rails
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   sqlite3
+  twitter-bootstrap-rails (= 2.2.8)
   uglifier (>= 1.0.3)
