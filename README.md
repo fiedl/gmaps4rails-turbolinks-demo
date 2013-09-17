@@ -2,7 +2,7 @@ This demo shows that [gmaps4rails](https://github.com/apneadiving/Google-Maps-fo
 
 ## Demo on heroku
 
-http://gmaps-turbolinks-demo.herokuapp.com
+* http://gmaps-turbolinks-demo.herokuapp.com
 
 ## How to get it working
 
@@ -14,7 +14,7 @@ http://gmaps-turbolinks-demo.herokuapp.com
 * **Pull Request:** https://github.com/apneadiving/Google-Maps-for-Rails/pull/328
 * **Github Issue:** https://github.com/apneadiving/Google-Maps-for-Rails/issues/320
 * **Stackoverflow Question:** http://stackoverflow.com/questions/13807686/gmaps4rails-and-turbolinks-not-loading-without-full-page-refresh
-* **This Demo App on Github:** https://github.com/fiedl/gmaps4rails-turbolinks-demo
+* **This Demo App on heroku:** http://gmaps-turbolinks-demo.herokuapp.com
 * **Railscast on turbolinks:** http://railscasts.com/episodes/390-turbolinks
 
 ## Author, License
