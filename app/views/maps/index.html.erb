@@ -5,7 +5,7 @@
     <a href="https://github.com/rails/turbolinks/">turbolinks</a>.
   </p>
   <p><%= link_to "Load a map with turbolinks", map_path, :class => "btn btn-lg btn-success" %></p>
-  <p><%= link_to "Load a map without turbolinks", map_path, :class => "btn", :data_no_turbolink => true %></p>
+  <p><%= link_to "Load a map without turbolinks", map_path, :class => "btn", :data => {no_turbolink: true} %></p>
 </div>
 
 <div class="row">
