@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require turbolinks
 //= require twitter/bootstrap
 //= require gmaps4rails/base
 //= require gmaps4rails/google

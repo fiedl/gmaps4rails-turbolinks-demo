@@ -8,5 +8,7 @@
 
 <h1>This is a map!</h1>
 <p>
-  <%= gmaps4rails(@gmaps_json)%>  
+  <%= gmaps( :markers => {:data => @gmaps_json}, 
+             :map_options => {:auto_adjust => true }
+             ) %>  
 </p>

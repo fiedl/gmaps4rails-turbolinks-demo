@@ -8,16 +8,25 @@
   <p><%= link_to "Load a map without turbolinks", map_path, :class => "btn", :data_no_turbolink => true %></p>
 </div>
 
-<div class="row marketing">
+<div class="row">
   <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>Fork:</li>
-      <li>Pull Request:</li>
-      <li>Github Issue:</li>
-      <li>Stack Overflow Question:</li>
-      <li>This Demo App on Github:</li>
-      <li>Railscast on turbolinks:</li>
-    </ul>
+    
+<%= markdown("    
+
+#### How to get it working
+
+* Have a look at this short gist: https://gist.github.com/fiedl/6600555
+
+#### Further Resources
+
+* **Fork:** https://github.com/fiedl/Google-Maps-for-Rails
+* **Pull Request:** https://github.com/apneadiving/Google-Maps-for-Rails/pull/328
+* **Github Issue:** https://github.com/apneadiving/Google-Maps-for-Rails/issues/320
+* **Stackoverflow Question:** http://stackoverflow.com/questions/13807686/gmaps4rails-and-turbolinks-not-loading-without-full-page-refresh
+* **This Demo App on Github:** https://github.com/fiedl/gmaps4rails-turbolinks-demo
+* **Railscast on turbolinks:** http://railscasts.com/episodes/390-turbolinks
+
+") %>
+
   </div>
 </div>

@@ -9,7 +9,7 @@
 
     <%= stylesheet_link_tag    "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
-    <% # gmaps4rails_api_script_tags %>
+    <%= gmaps4rails_api_script_tags %>
     <%= csrf_meta_tags %>
 
   </head>
@@ -27,6 +27,7 @@
       
       <%= yield %>
 
+      <br clear="all" />
       <div class="footer">
         <p>
           <a href="https://github.com/fiedl">fiedl</a>, 
