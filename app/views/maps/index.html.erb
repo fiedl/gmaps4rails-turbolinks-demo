@@ -1,11 +1,11 @@
 <div class="jumbotron">
   <h1>gmaps4rails with turbolinks</h1>
   <p class="lead">This demo shows that 
-    <a href="">gmaps4rails</a> can be used with
-    <a href="">turbolinks</a>.
+    <a href="https://github.com/apneadiving/Google-Maps-for-Rails">gmaps4rails</a> can be used with
+    <a href="https://github.com/rails/turbolinks/">turbolinks</a>.
   </p>
-  <p><a class="btn btn-lg btn-success" href="#">Load a map with turbolinks now</a></p>
-  <p><a class="btn" href="#">Load a map without turbolinks</a></p>
+  <p><%= link_to "Load a map with turbolinks", map_path, :class => "btn btn-lg btn-success" %></p>
+  <p><%= link_to "Load a map without turbolinks", map_path, :class => "btn", :data_no_turbolink => true %></p>
 </div>
 
 <div class="row marketing">

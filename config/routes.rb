@@ -1,7 +1,9 @@
 GmapsTurbolinksDemo::Application.routes.draw do
 
+  resources :addresses
+
   get "maps/index"
-  get "maps/show"
+  get "maps/show", as: :map
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

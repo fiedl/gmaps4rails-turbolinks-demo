@@ -9,13 +9,9 @@
 
     <%= stylesheet_link_tag    "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
+    <% # gmaps4rails_api_script_tags %>
     <%= csrf_meta_tags %>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
@@ -32,7 +28,10 @@
       <%= yield %>
 
       <div class="footer">
-        <p>Sep 2013</p>
+        <p>
+          <a href="https://github.com/fiedl">fiedl</a>, 
+          Sep 2013
+        </p>
       </div>
 
     </div> <!-- /container -->
@@ -41,6 +40,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    
+    <%= yield :scripts %>
   </body>
 </html>
 

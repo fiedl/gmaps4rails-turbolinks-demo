@@ -3,5 +3,6 @@ class MapsController < ApplicationController
   end
 
   def show
+    @gmaps_json = Address.all.to_gmaps4rails
   end
 end

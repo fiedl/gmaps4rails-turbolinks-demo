@@ -1,2 +1,12 @@
-<h1>Maps#show</h1>
-<p>Find me in app/views/maps/show.html.erb</p>
+<p>
+  <%= link_to(root_path, :class => "btn") do %>
+    <i class="icon-arrow-left"></i>
+    Back to the start page
+  <% end %>
+  <br /><br />
+</p>
+
+<h1>This is a map!</h1>
+<p>
+  <%= gmaps4rails(@gmaps_json)%>  
+</p>
